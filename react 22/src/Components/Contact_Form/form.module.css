@@ -23,9 +23,9 @@
 
 .buttons button:hover{
     background-color: black;
-    color: greenyellow;
+    color: white;
     border-color: black;
-    border-radius: 15px; 
+    
 }
 
 .email{
@@ -43,11 +43,54 @@
     transition: all 0.7s ease;
     cursor: pointer;
     background-color: transparent;
+    margin-bottom: 25px;
 }
 
 .email button:hover{
     background-color: black;
-    color: greenyellow;
+    color: white;
     border-color: black;
-    border-radius: 15px;
+   
 }
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 19px;
+}
+
+.inputs input{
+    margin-top: 5px;
+    margin-bottom: 18px;
+    height: 40px;
+    
+    font-size: 15px;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+}
+
+.inputs input:hover{
+    border: 2px solid green;
+    border-color: green;
+    
+}
+
+.texting{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 19px;
+    
+}
+
+.texting input{
+    margin-top: 5px;
+    margin-bottom: 18px;
+    height: 150px;
+    
+    font-size: 15px;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+}
+

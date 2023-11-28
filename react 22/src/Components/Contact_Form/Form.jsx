@@ -22,13 +22,16 @@ const form = () => {
         </div>
         <div className={styles.texting}>
         <label htmlFor="name">Text</label>
-        <input  type="text" name="Name" id="texts" />
+        <textarea type="text" name="Name" rows="8"  id="texts" />
         </div>
        
       </div>
+      <div className={styles.btn}>
+        <button className={styles.mail}>SUBMIT</button>
+      </div>
      </div>
-      <div className="images">
-
+      <div className={styles.images}>
+      <img src="./images/one.png" alt="" />
       </div>
     </section>
   )

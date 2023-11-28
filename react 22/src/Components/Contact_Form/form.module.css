@@ -17,7 +17,7 @@
     font-size: 17px;
     font-weight: 600;
     border: 1px solid black;
-    transition: all 0.7s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
 }
 
@@ -40,7 +40,7 @@
     font-size: 17px;
     font-weight: 600;
     border: 1px solid black;
-    transition: all 0.7s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
     background-color: transparent;
     margin-bottom: 25px;
@@ -64,14 +64,15 @@
     margin-top: 5px;
     margin-bottom: 18px;
     height: 40px;
-    
+    padding: 0 8px;
     font-size: 15px;
-    border: 2px solid black;
+    outline: none;
+    border: 1px solid black;
     transition: all 0.5s ease;
 }
 
 .inputs input:hover{
-    border: 2px solid green;
+    border: 1px solid green;
     border-color: green;
     
 }
@@ -84,13 +85,40 @@
     
 }
 
-.texting input{
+.texting textarea{
     margin-top: 5px;
+    padding: 5px 5px;
     margin-bottom: 18px;
     height: 150px;
-    
+    outline: none;
     font-size: 15px;
-    border: 2px solid black;
+    border: 1px solid black;
     transition: all 0.5s ease;
 }
 
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.mail{
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid black;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.mail:hover{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.images{
+    margin-left: 250px;
+}
